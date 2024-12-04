@@ -37,8 +37,8 @@ const Comp6 = () => {
 
       {/* Right side section */}
       <motion.div className="lg:w-3/4 grid grid-cols-1 sm:grid-cols-2 gap-4 "
-        initial={{ scale:0, opacity: 0 }} 
-       whileInView={{ scale:1, x: 0, opacity: 1 }} 
+        initial={{  opacity: 0 }} 
+       whileInView={{ x: 0, opacity: 1 }} 
               transition={{ duration: 0.8 }} // Smooth transition
                whileHover={{ scale: 1.01 }}
       

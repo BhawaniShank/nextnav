@@ -43,8 +43,8 @@ const projects = [
 function ProjectCard({ project }) {
     return (
         <motion.div className="bg-white rounded-lg shadow-md overflow-hidden"
-        initial={{ rotateY: 90, opacity: 0 }} // Start flipped
-  whileInView={{ rotateY: 0, opacity: 1 }} // Flip to normal
+        initial={{ opacity: 0 }} // Start flipped
+  whileInView={{  opacity: 1 }} // Flip to normal
   transition={{ duration: 0.8, ease: "easeOut" }} // Smooth transition
   whileHover={{ scale: 1.05 }} // Slightly enlarge on hover
         >
@@ -63,9 +63,9 @@ function Comp4() {
         <div className="container mx-auto px-4 max-w-[118em] md:pl-[10em]  md:pr-24 lg:pr-10 py-6 text-center">
             {/* Customer Stories Section */}
             <motion.section className="mb-8"
-              initial={{ scale: 0 , opacity: 0 }} 
-              whileInView={{scale: 1.01, opacity: 1 }} 
-              transition={{ duration: 0.8 }} // Smooth transition
+              initial={{ opacity: 0 }} 
+              whileInView={{ opacity: 1 }} 
+              transition={{ duration: 0.6 }} // Smooth transition
                whileHover={{ scale: 1.01 }}
             >
                 <h2 className="text-2xl md:text-3xl font-bold mb-4">Real-world results, as told by our customers</h2>
@@ -81,7 +81,7 @@ function Comp4() {
 
             {/* Projects Grid */}
             <motion.div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 place-items-center"
-             initial={{ y: 200,  opacity: 0 }} 
+             initial={{ y: 50,  opacity: 0 }} 
              whileInView={{ y: 0, opacity: 1 }} 
               transition={{ duration: 0.8 }} // Smooth transition
                whileHover={{ scale: 1.01 }}

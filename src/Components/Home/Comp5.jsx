@@ -3,9 +3,9 @@ import { motion } from "framer-motion"
 
 const Comp5 = () => {
   return (
-    <div className="bg-gray-100 p-8">
+    <div className="bg-gray-100 p-4">
       {/* Wrapper with max-width and max-height for 2xl */}
-      <div className="  px-3 md:ps-20 lg:ps-32  lg:pe-4 max-w-[115em] max-h-full  mx-auto">
+      <div className="   md:ps-20 lg:ps-32  lg:pe-4 max-w-[115em] max-h-full  mx-auto">
       
         {/* Header Section */}
         <section className="flex w-full flex-col md:flex-row items-center  bg-gray-800 text-white p-8 rounded-lg shadow-lg mb-12">
@@ -13,7 +13,7 @@ const Comp5 = () => {
           initial={{ x: -200,  opacity: 0 }} 
            whileInView={{ x: 0, opacity: 1 }} 
               transition={{ duration: 0.8 }} // Smooth transition
-               whileHover={{ scale: 1.1 }}
+               whileHover={{ scale: 1.02 }}
           >
             <h1 className="text-3xl md:text-4xl font-bold">Get started on your construction project today!</h1>
             <p className="mt-4 text-lg">Contact us today, and let the journey to your dream construction project begin!</p>
@@ -25,7 +25,7 @@ const Comp5 = () => {
             initial={{ opacity: 0 }}
            whileInView={{ x: 0, opacity: 1 }} 
               transition={{ duration: 0.8 }} // Smooth transition
-               whileHover={{ scale: 1.1 }}
+               whileHover={{ scale: 1.02 }}
           >
             <img src={b1} alt="Building" className="rounded-lg w-full" />
           </motion.div>
@@ -33,8 +33,8 @@ const Comp5 = () => {
 
         {/* Customer Stories Section */}
         <motion.section className="text-center mb-8"
-         initial={{ scale: 0 , opacity: 0 }} 
-              whileInView={{scale: 1.01, opacity: 1 }} 
+         initial={{ opacity: 0 }} 
+              whileInView={{ opacity: 1 }} 
               transition={{ duration: 0.8 }} // Smooth transition
                whileHover={{ scale: 1.01 }}
         >
@@ -51,14 +51,14 @@ const Comp5 = () => {
 
         {/* Customer Stories Grid */}
         <motion.section className="grid grid-cols-1 md:grid-cols-3 gap-8"
-         initial={{ y: 200,  opacity: 0 }} 
+         initial={{ y: 50,  opacity: 0 }} 
              whileInView={{ y: 0, opacity: 1 }} 
               transition={{ duration: 0.8 }} // Smooth transition
                whileHover={{ scale: 1.01 }}
         >
           <motion.div className="bg-white p-4 rounded-lg shadow-lg"
-           initial={{ scale: 0 , opacity: 0 }} 
-              whileInView={{scale: 1.01, opacity: 1 }} 
+           initial={{ opacity: 0 }} 
+              whileInView={{opacity: 1 }} 
               transition={{ duration: 0.8 }} // Smooth transition
                whileHover={{ scale: 1.01 }}
           >
@@ -66,17 +66,17 @@ const Comp5 = () => {
             <p className="text-gray-600">Project 1 Description</p>
           </motion.div>
           <motion.div className="bg-white p-4 rounded-lg shadow-lg"
-           initial={{ scale: 0 , opacity: 0 }} 
-              whileInView={{scale: 1.01, opacity: 1 }} 
-              transition={{ duration: 0.8 }} // Smooth transition
+           initial={{ opacity: 0 }} 
+              whileInView={{ opacity: 1 }} 
+              transition={{ duration: 0.6 }} // Smooth transition
                whileHover={{ scale: 1.01 }}
           >
             <img src={b1} alt="Project 2" className="rounded-lg w-full mb-4" />
             <p className="text-gray-600">Project 2 Description</p>
           </motion.div>
           <motion.div className="bg-white p-4 rounded-lg shadow-lg"
-           initial={{ scale: 0 , opacity: 0 }} 
-              whileInView={{scale: 1.01, opacity: 1 }} 
+           initial={{ opacity: 0 }} 
+              whileInView={{ opacity: 1 }} 
               transition={{ duration: 0.8 }} // Smooth transition
                whileHover={{ scale: 1.01 }}
           >
