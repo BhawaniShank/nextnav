@@ -1,3 +1,4 @@
+import b1 from '../../assets/HomeImg/b1.jpeg'
 const SerComp4 = () => {
   return (
     <div className="flex flex-col items-center p-8 max-w-[120em] md:pl-[5em] lg:px-[10em] mx-auto bg-[#273236] text-white font-sans relative">
@@ -6,9 +7,9 @@ const SerComp4 = () => {
       </h1>
       <div className="flex flex-col md:flex-row items-center relative">
         <img
-          src="https://placehold.co/400x400"
+          src={b1}
           alt="Construction worker on a steel structure"
-          className="rounded-lg mb-8 md:mb-0 md:mr-8"
+          className="rounded-lg max-w-[30em] mb-8 md:mb-0 md:mr-8"
         />
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 z-10">
           <div className="bg-[#283337] p-4 rounded-lg shadow-lg">

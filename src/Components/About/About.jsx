@@ -3,6 +3,7 @@ import { FaArrowRight } from 'react-icons/fa';
 import { FaAward, FaHandshake, FaLeaf, FaLightbulb } from 'react-icons/fa';
 import Directors from './Directors';
 import Comp2 from './Comp2';
+import b1 from '../../assets/HomeImg/b1.jpeg'
 import History from './HIstory';
 import Responsibilities from './Responsibilities';
 const About = () => {
@@ -213,8 +214,7 @@ const About = () => {
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-32 justify-center">
         <div className="text-center p-4">
           <img
-                    src="https://picsum.photos/300/200
-            "
+                    src="https://picsum.photos/300/200"
             alt="Victorian style house"
             className="w-full h-auto mx-auto"
           />

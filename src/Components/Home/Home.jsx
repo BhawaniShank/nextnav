@@ -7,6 +7,7 @@ import Comp7 from "./Comp7";
 import dubai from "../../assets/Dubai.mp4"
 import Comp8 from './Comp8';
 import { motion } from "framer-motion"
+import Footer from '../Footer/Footer';
 
 // Counter component for the counting animation
 const Counter = ({ targetNumber }) => {
@@ -150,6 +151,7 @@ const Home = () => {
       
       <Comp7 />
       <Comp8 />
+      <Footer/>
     </div>
   );
 };

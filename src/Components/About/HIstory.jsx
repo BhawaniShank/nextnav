@@ -1,10 +1,10 @@
 import React from "react";
-
+import b1 from '../../assets/HomeImg/b1.jpeg'
 const History = () => {
   return (
     <div>
       {/* Main Section with Vertical Lines */}
-      <div className="relative flex flex-col items-center max-h-[30em] md:max-h-[25em] z-0 py-24 px-5 lg:pl-[6em]  xl:pl-[7em] md:pl-[5em] bg-white ">
+      <div className="relative flex flex-col items-center max-h-[22em] md:max-h-[25em] z-0 md:py-24 px-5 lg:pl-[6em]  xl:pl-[7em] md:pl-[5em] bg-white ">
         {/* Vertical Lines in Background */}
         <div className="absolute hidden inset-y-0 left-0 pl-20 right-0 lg:flex justify-between max-w-6xl mx-auto z-0 pointer-events-none">
           {[...Array(2)].map((_, i) => (
@@ -17,24 +17,24 @@ const History = () => {
           {/* Left Image Column */}
           <div className="lg:flex flex-col hidden mt-10 items-start justify-start md:w-1/4 lg:w-1/3">
             <img
-              src="https://placehold.co/70x70"
+              src={b1}
               alt="Building with modern architecture"
-              className="rounded-lg ml-32 mb-4 "
+              className="rounded-lg ml-32 h-[70px] mb-4 "
             />
             <img
-              src="https://placehold.co/70x70"
+              src={b1}
               alt="Modern building with unique design"
-              className="rounded-lg mb-4"
+              className="rounded-lg h-[70px] mb-4"
             />
             <img
-              src="https://placehold.co/70x70"
+              src={b1}
               alt="Building with glass facade"
-              className="ml-32 rounded-lg mb-4"
+              className="ml-32 h-[70px] rounded-lg mb-4"
             />
           </div>
 
           {/* Center Text Content */}
-          <div className="flex flex-col items-center justify-center text-center w-full lg:w-2/3 px-4">
+          <div className="flex flex-col items-center md:justify-center text-center w-full lg:w-2/3 px-4">
             <div className="mb-4">
               <i className="fas fa-cogs text-4xl"></i>
             </div>
@@ -55,26 +55,26 @@ const History = () => {
           {/* Right Image Column */}
           <div className="lg:flex flex-col hidden mt-10 items-end justify-end md:w-1/4 lg:w-1/3">
             <img
-              src="https://placehold.co/70x70"
+              src={b1}
               alt="Modern skyscraper"
-              className="rounded-lg mr-32 mb-4"
+              className="rounded-lg h-[70px] mr-32 mb-4"
             />
             <img
-              src="https://placehold.co/70x70"
+              src={b1}
               alt="Unique building design"
-              className="rounded-lg mb-4"
+              className="rounded-lg h-[70px] mb-4"
             />
             <img
-              src="https://placehold.co/70x70"
+              src={b1}
               alt="Another modern building"
-              className="rounded-lg mr-32 mb-4"
+              className="rounded-lg h-[70px] mr-32 mb-4"
             />
           </div>
         </div>
       </div>
 
       {/* Additional Content with Lines */}
-      <div className="relative flex flex-col items-center justify-center max-w-[120em] mx-auto min-h-full py-24 px-5 lg:pl-[6em]  xl:pl-[7em] md:pl-[5em]  bg-white">
+      <div className="relative flex flex-col items-center justify-center max-w-[120em] mx-auto min-h-full py-16 px-5 lg:pl-[6em]  xl:pl-[7em] md:pl-[5em]  ">
         {/* Vertical Lines in Background */}
         <div className="absolute hidden  inset-y-0 left-0 pl-20 right-0 lg:flex justify-between max-w-6xl mx-auto z-0 pointer-events-none">
           {[...Array(2)].map((_, i) => (
@@ -88,7 +88,7 @@ const History = () => {
             {/* Image Section */}
             <div className="md:w-1/2 p-4  ">
               <img
-                src="https://placehold.co/600x400"
+                src={b1}
                 alt="Silhouettes of people in a modern building with large windows"
                 className="rounded-lg shadow-lg"
               />
@@ -124,7 +124,7 @@ const History = () => {
             {/* Image Section */}
             <div className="md:w-1/2 p-4  order-1 md:order-2">
               <img
-                src="https://placehold.co/600x400"
+                src={b1}
                 alt="Construction site with cranes and building structures"
                 className="rounded-lg shadow-lg"
               />
@@ -136,7 +136,7 @@ const History = () => {
             {/* Image Section */}
             <div className="md:w-1/2 p-4">
               <img
-                src="https://placehold.co/600x400"
+                src={b1}
                 alt="Modern architectural structure with curved design"
                 className="rounded-lg shadow-lg"
               />

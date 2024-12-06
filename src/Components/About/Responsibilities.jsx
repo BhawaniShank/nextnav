@@ -33,61 +33,61 @@ const Responsibilities = () => {
           developed 8 ambitious and challenging commitments to maintain as we
           conduct business:
         </p>
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-8">
-          <div className="text-gray-700 lg:pr-28 lg:text-left">
-            <div className="ml-20">
-              <strong>
-                Shape an exemplary culture of ethics and compliance
-              </strong>
-            </div>
-            <div className="ml-14 pt-5 ">
-              <strong>
-                Build a responsible supply chain rooted in sustainable
-                performance
-              </strong>
-            </div>
-            <div className="ml-10 pt-5">
-              <strong>
-                Foster a stronger health and safety culture to protect lives
-              </strong>
-            </div>
-            <div className="ml-14 pt-5">
-              <strong>
-                Attract, develop and retain talent through managerial excellence
-              </strong>
-            </div>
-          </div>
-          <div className="text-gray-700 max-w-[40em] lg:pl-36 ">
-            <div>
-              <strong>
-                Offer our customers and users solutions that meet the challenges
-                of sustainable development in local communities
-              </strong>
-            </div>
-            <div>
-              <strong>
-                Roll out a low carbon and biodiversity strategy to preserve the
-                planet
-              </strong>
-            </div>
-            <div>
-              <strong>
-                Promote circular economy solutions to preserve natural resources
-              </strong>
-            </div>
-            <div>
-              <strong>
-                Reduce the impact of our activities to bolster acceptability
-              </strong>
-            </div>
-          </div>
-        </div>
-        <div className="flex lg:absolute bottom-28 xl:bottom-16 left-10 w-full justify-center mt-8">
+        <div className="flex lg:absolute lg:pl-20 bottom-28 xl:bottom-16 left-10 lg:min-w-[94vw] justify-center mt-8">
           <img
             src={logo}
             alt="ACT logo with text 'Act and Commit Together #ColasAct2030'"
             className="w-44 border-4 border-[#4d769e] p-6 rounded-full h-44"
           />
+        </div>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 mt-8">
+          <div className="text-gray-700 lg:pr-28 lg:text-left">
+            <div className="lg:ml-20">
+              <strong>
+                1.Shape an exemplary culture of ethics and compliance
+              </strong>
+            </div>
+            <div className="lg:pr-14 pt-3 lg:pt-10 ">
+              <strong>
+                2.Build a responsible supply chain rooted in sustainable
+                performance
+              </strong>
+            </div>
+            <div className="lg:pr-8 pt-3 lg:pt-5">
+              <strong>
+                3.Foster a stronger health and safety culture to protect lives
+              </strong>
+            </div>
+            <div className="lg:pl-14 pt-3 lg:pt-7">
+              <strong>
+                4.Attract, develop and retain talent through managerial excellence
+              </strong>
+            </div>
+          </div>
+          <div className="text-gray-700 max-w-[40em] lg:pl-36 ">
+            <div className=" ">
+              <strong>
+                5.Offer our customers and users solutions that meet the challenges
+                of sustainable development in local communities
+              </strong>
+            </div>
+            <div className="lg:pl-10 pt-3 lg:pt-5">
+              <strong>
+                6.Roll out a low carbon and biodiversity strategy to preserve the
+                planet
+              </strong>
+            </div>
+            <div className="lg:pl-10 pt-3 lg:pt-5">
+              <strong>
+                7.Promote circular economy solutions to preserve natural resources
+              </strong>
+            </div>
+            <div className=" pt-3 lg:pt-5">
+              <strong>
+                8.Reduce the impact of our activities to bolster acceptability
+              </strong>
+            </div>
+          </div>
         </div>
       </div>
     </div>

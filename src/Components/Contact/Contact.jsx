@@ -1,6 +1,6 @@
 import { useState } from "react";
-import contactBg from "./contactbg.jpg"; // Import your background image
-import PhoneInputValidation from "./PhoneInputValidation";
+import contactBg from "../../assets/contactcareer/contactbg.jpg"; // Import your background image
+
 
 const Contact = () => {
   const [email, setEmail] = useState("");
@@ -245,6 +245,8 @@ const Contact = () => {
           </div>
         </section>
       </div>
+
+      
 
       <div className="map-container w-full max-w-[120em] mx-auto h-64 sm:h-96 mt-8">
         <iframe

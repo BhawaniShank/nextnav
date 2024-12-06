@@ -1,52 +1,52 @@
 import React from 'react';
-
+import b2 from '../../assets/HomeImg/b2.jpeg'
 const projects = [
   {
     title: "Leisure & Themed Projects",
     description: "Designing and building destinations that offer entertainment, recreation, and relaxation in perfect harmony.",
-    image: "https://placehold.co/600x400?text=Leisure+%26+Themed+Projects",
+    image: b2,
     alt: "Leisure & Themed Projects Image",
   },
   {
     title: "Hospitality Projects",
     description: "Creating luxurious that blend exquisite design with unmatched hospitality, offering unforgettable getaways.",
-    image: "https://placehold.co/600x400?text=Hospitality+Projects",
+    image: b2,
     alt: "Hospitality Projects Image",
   },
   {
     title: "Museums & Pavilions",
     description: "Crafting immersive spaces that celebrate heritage and artistry, fostering cultural understanding and appreciation.",
-    image: "https://placehold.co/600x400?text=Museums+%26+Pavilions",
+    image: b2,
     alt: "Museums & Pavilions Image",
   },
   {
     title: "Retail",
     description: "Crafting dynamic spaces that redefine shopping, dining, and leisure, delivering innovative retail destinations.",
-    image: "https://placehold.co/600x400?text=Retail",
+    image: b2,
     alt: "Retail Image",
   },
   {
     title: "Airports",
     description: "Elevating aviation infrastructure with precision, from runways to terminals, ensuring seamless travel experiences.",
-    image: "https://placehold.co/600x400?text=Airports",
+    image: b2,
     alt: "Airports Image",
   },
   {
     title: "Commercial",
     description: "Crafting dynamic workspaces, shopping centers, and mixed-use complexes that inspire growth and innovation.",
-    image: "https://placehold.co/600x400?text=Commercial",
+    image: b2,
     alt: "Commercial Image",
   },
   {
     title: "Residential",
     description: "Crafting vibrant, sustainable communities that redefine modern living, combining comfort, style, and connectivity.",
-    image: "https://placehold.co/600x400?text=Residential",
+    image: b2,
     alt: "Residential Image",
   },
   {
     title: "Oil, Gas & Marine",
     description: "Delivering innovative, sustainable Oil & Gas projects that drive the future of energy in the region.",
-    image: "https://placehold.co/600x400?text=Oil+Gas+%26+Marine",
+    image: b2,
     alt: "Oil, Gas & Marine Image",
   },
 ];

@@ -33,7 +33,7 @@ const Directors = () => {
     <div className="bg-white font-['Roboto']     min-h-[20em] ">
       <div className="container mx-auto text-center max-w-[120em] md:ps-[8em] md:pe-[4em] lg:pe-[2em] py-12 px-4">
         <h1 className="text-3xl font-bold text-gray-800 mb-8">Our Board of Directors</h1>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-2 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {directors.map((director, index) => (
             <div key={index} className="w-full">
               <img className="w-full h-auto rounded" src={director.imgSrc} alt={director.imgAlt} />
